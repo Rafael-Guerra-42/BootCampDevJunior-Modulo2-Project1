@@ -80,7 +80,7 @@
 
             <h2 style="padding-top: 10px;">Dados Pessoais</h2>
             <input type="text" placeholder="Digite seu nome completo"> <br>
-            <input type="text" placeholder="Digite seu telefone"> <br>
+            <input type="text" placeholder="Digite seu telefone" id="phone"> <br>
             <input type="email" placeholder="Digite seu email"> <br>
             
 
@@ -104,5 +104,8 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
     <script src="js/quantity.js"></script>
+    <script>
+        $("#phone").mask("(99) 99999-9999");
+    </script>
 </body>
 </html>
