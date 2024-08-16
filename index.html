@@ -109,13 +109,13 @@
         <div class="container-cards" style="padding-bottom: 10px;">
 
             <h2 style="padding-top: 10px;">Dados Pessoais</h2>
-            <input type="text" placeholder="Digite seu nome completo"> <br>
-            <input type="text" placeholder="Digite seu telefone" id="phone"> <br>
-            <input type="email" placeholder="Digite seu email"> <br>
+            <input type="text" placeholder="Digite seu nome completo" id="customer_name"> <br>
+            <input type="text" placeholder="Digite seu telefone" id="customer_phone"> <br>
+            <input type="email" placeholder="Digite seu email" id="customer_email"> <br>
             
 
         </div>
-        <button >Calcular</button>
+        <button onclick="Calculate()">Calcular</button>
         <div class="informations" id="informations">
 
 
@@ -158,8 +158,9 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
     <script src="js/quantity.js"></script>
+    <script src="js/script.js"></script>
     <script>
-        $("#phone").mask("(99) 99999-9999");
+        $("#customer_phone").mask("(99) 99999-9999");
     </script>
 </body>
 </html>

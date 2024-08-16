@@ -64,7 +64,9 @@ input{
     margin-bottom: 1rem;
 }
 .informations{
-
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: left;
     padding-bottom: 1rem;
 
 }
